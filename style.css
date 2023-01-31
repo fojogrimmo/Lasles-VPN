@@ -135,7 +135,7 @@ body {
   justify-content: space-between;
 }
 
-/*---BUTONS---*/
+/*--BUTONS--*/
 
 .button__one,
 .button__one:visited {
@@ -163,7 +163,7 @@ body {
   color: #f53838;
   transition: 0.2s;
 }
-/*---NAV BAR---*/
+/*--NAV BAR--*/
 
 .menu {
   padding: 5px;
@@ -202,7 +202,7 @@ body {
   line-height: 19px;
 }
 
-/*-------MAIN SECTION-------*/
+/*--MAIN SECTION--*/
 .main {
   flex: 1 1 auto;
 }
@@ -216,6 +216,7 @@ body {
   width: 100%;
   display: flex;
 }
+
 .text-block {
   margin-right: 40px;
   max-width: 531px;
@@ -257,6 +258,11 @@ body {
   bottom: 20px;
   flex: 1 1 100%;
 }
+
+.main-header__image {
+  max-width: 100%;
+}
+
 .main-header__image img {
   width: 542px;
   height: 339px;
@@ -279,21 +285,65 @@ body {
   box-shadow: 0px 5px 15px #e7505083;
   transition: all 0.5s 0s ease;
 }
-/*---ABOUT SECTION---*/
-.about-text__section {
-  position: relative;
-  margin-top: 100px;
+/*--ABOUT SECTION--*/
+
+.facts {
+  width: 100%;
+  margin-top: 120px;
+}
+.facts__container {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 42px 114px rgba(13, 16, 37, 0.06);
+}
+
+.facts__card {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 33.33%;
+  height: 126px;
+  border-right: 2px solid #eeeff2;
 }
 
-/*---BURGER---*/
+.facts__card:last-child {
+  border: none;
+}
+
+.facts__icon {
+  width: 55px;
+  height: 55px;
+}
+
+.facts__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
+.facts__text {
+  color: #4f5665;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
+.facts__wrapper {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*--BURGER--*/
 .close-icon-menu,
 .icon-menu {
   display: none;
+  margin: 25px;
 }
-/*---PC---*/
+/*--PC--*/
 @media screen and (max-width: 1230px) {
   [class*="__container"] {
     max-width: 970px;
@@ -303,7 +353,7 @@ body {
   }
 }
 
-/*---TABLET---*/
+/*--TABLET--*/
 @media screen and (max-width: 1023px) {
   .menu__body {
     position: fixed;
@@ -382,6 +432,23 @@ body {
     width: 100%;
     height: 100%;
     justify-content: end;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .main-header__content {
+    flex-direction: column;
+  }
+  .text-block {
+    max-width: none;
+    flex: 1 1 100%;
+  }
+  .main-header__image {
+    padding: 0px 20px;
+  }
+  .main-header__image img {
+    width: 100%;
+    height: auto;
   }
 }
 

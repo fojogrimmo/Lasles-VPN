@@ -552,20 +552,32 @@ li.icon-check {
     flex: 0 0 40px;
     overflow: hidden;
   }
+  .header__button {
+    justify-content: flex-end;
+  }
+  .header-block {
+    padding: 15px 20px 10px 20px;
+  }
+  .button__one {
+    padding: 15px 15px;
+  }
   .facts {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .facts__container {
+    width: 300px;
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
   }
   .facts__card {
-    min-width: 200px;
+    width: 400px;
     margin: 0px 0px 15px 0px;
-    text-align: center;
+    border: none;
+    justify-content: space-around;
+    text-align: end;
+    border-bottom: 2px solid #eeeff2;
   }
-
   .facts__icon {
     margin: 15px 15px;
   }
@@ -580,29 +592,28 @@ li.icon-check {
     flex-wrap: wrap;
     justify-content: center;
   }
-}
-
-/*--SMALL MOBILE--*/
-
-@media screen and (max-width: 429px) {
-  .facts__card {
-    border: none;
-  }
-  .facts__card {
-    justify-content: space-between;
-    text-align: end;
-    border-bottom: 2px solid #eeeff2;
-  }
-  .facts__body {
-    margin: 15px 15px;
-  }
   .advantages__container img {
     width: 100%;
     height: auto;
     padding: 0px 10px 10px 10px;
     align-items: center;
   }
+  .page__features {
+    margin-top: 60px;
+  }
+}
+
+/*--SMALL MOBILE--*/
+
+@media screen and (max-width: 429px) {
+  .facts__body {
+    margin: 15px 15px;
+  }
+
   .header-block {
     padding: 0px 10px 0px 10px;
+  }
+  .button__two {
+    padding: 15px 25px;
   }
 }

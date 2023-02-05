@@ -360,23 +360,22 @@ body {
   margin: 0 auto;
 }
 .advantages__container img {
-  padding: 0px 0px 0px 35px;
+  padding: 0px 170px 0px 35px;
 }
 
 .header-block {
-  padding: 50px 0px 0px 170px;
+  padding: 50px 0px 0px 50px;
 }
 
-.header-block__title {
+.header-block__title-left {
   max-width: 384px;
   font-weight: 500;
   font-size: 35px;
   line-height: 143%;
   margin-bottom: 20px;
 }
-.header-block__subtitle {
+.header-block__subtitle-left {
   max-width: 428px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 188%;
@@ -391,6 +390,31 @@ body {
 li.icon-check {
   padding-bottom: 15px;
   vertical-align: baseline;
+}
+
+/*--PRICING--*/
+._container {
+  background-color: #f6f6f6;
+  max-width: 100%;
+}
+.pricing__header {
+  padding: 80px 0px 60px 0px;
+}
+.header-block__title-center {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header-block__subtitle-center {
+  max-width: 555px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  color: #4f5665;
+  margin: 0 auto;
+  text-align: center;
 }
 /*--BURGER--*/
 .close-icon-menu,
@@ -524,14 +548,14 @@ li.icon-check {
     padding: 20px 0px 0px 50px;
   }
 
-  .header-block__title {
+  .header-block__title-left {
     max-width: 484px;
     font-size: 40px;
     line-height: 143%;
     margin-bottom: 20px;
     text-align: center;
   }
-  .header-block__subtitle {
+  .header-block__subtitle-left {
     max-width: 428px;
     font-style: normal;
     font-weight: 400;
@@ -539,7 +563,7 @@ li.icon-check {
   }
 
   li.icon-check {
-    padding-top: 15px;
+    padding: 15px 0px 5px 0px;
     font-size: 18px;
   }
 }
@@ -606,14 +630,19 @@ li.icon-check {
 /*--SMALL MOBILE--*/
 
 @media screen and (max-width: 429px) {
+  .button__two {
+    padding: 15px 25px;
+  }
   .facts__body {
     margin: 15px 15px;
   }
-
   .header-block {
     padding: 0px 10px 0px 10px;
   }
-  .button__two {
-    padding: 15px 25px;
+  .header-block__title-left {
+    font-size: 35px;
+  }
+  .header-block__subtitle-left {
+    font-size: 18px;
   }
 }

@@ -153,7 +153,6 @@ body {
   padding: 13px 45px;
   box-sizing: border-box;
   border-color: #f53838;
-  border-radius: 50px;
   transition: background-color 0.3s ease 0s;
 }
 
@@ -596,9 +595,9 @@ li.icon-check {
   }
   .facts__card {
     width: 400px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 10px;
     border: none;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: end;
     border-bottom: 2px solid #eeeff2;
   }
@@ -624,6 +623,7 @@ li.icon-check {
   }
   .page__features {
     margin-top: 60px;
+    padding-bottom: 50px;
   }
 }
 

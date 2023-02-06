@@ -29,6 +29,8 @@
 .icon-check2:before {
   content: "\e901";
   color: #2fab73;
+  font-size: 12px;
+  margin-right: 26px;
 }
 .icon-check:before {
   content: "\e900";

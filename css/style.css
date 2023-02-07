@@ -485,20 +485,6 @@ li.icon-check {
 .item-pricing__button-white:hover {
   color: #fff;
   background-color: #f53838;
-}
-.item-pricing__button-red {
-  width: 178px;
-  color: #fff;
-  background-color: #f53838;
-  border: 2px solid #f53838;
-  border-radius: 50px;
-  padding: 13px 62px;
-  margin: 0px auto 50px;
-  font-weight: 700;
-  font-size: 16px;
-  transition: 0.3s;
-}
-.item-pricing__button-red:hover {
   box-shadow: 0px 5px 15px #f7595983;
 }
 
@@ -530,6 +516,28 @@ li.icon-check {
 }
 .global__sponsored img {
   padding-right: 40px;
+}
+
+/*--CUSTOMERS--*/
+._container {
+  max-width: 100%;
+  padding-top: 120px;
+}
+.customers__body {
+}
+.cards-lixt {
+  width: 400px;
+  height: 230px;
+  border: 2px solid #d40e0e;
+  border-radius: 10px;
+}
+.customers__name {
+}
+.customers__country {
+}
+.customers__rate {
+}
+.customers__comment {
 }
 /*--BURGER--*/
 .close-icon-menu,

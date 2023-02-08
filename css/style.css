@@ -890,6 +890,24 @@ li.icon-check {
   .item-pricing__card-list {
     margin: 30px auto 30px;
   }
+  .global__image img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .global__sponsored {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content: center;
+    margin: 10px auto 10px;
+  }
+  .global__sponsored img {
+    padding-right: 10px;
+    width: 160px;
+    height: auto;
+  }
 }
 /*--SMALL MOBILE--*/
 

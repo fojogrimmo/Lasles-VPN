@@ -539,6 +539,9 @@ li.icon-check {
   transition: 0.3s;
   padding: 20px 25px;
 }
+.cards-item:not(:first-child) {
+  margin-left: 50px;
+}
 
 .customers__avatar {
   display: block;
@@ -584,11 +587,36 @@ li.icon-check {
   transform: scale(1.1);
   box-shadow: 0 71px 114px rgba(13, 16, 37, 0.06);
 }
-.customers__name {
-}
-.customers__country {
-}
 .customers__rate {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+}
+/*--SLIDER--*/
+.customers__slider-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1142px;
+  width: 100%;
+  max-height: 60px;
+}
+.customers__slider-state {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.customers__slider {
+  display: flex;
+  flex-direction: row;
+  width: 15px;
+  height: 15px;
+  background-color: #dde0e4;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 
 /*--BURGER--*/

@@ -861,12 +861,36 @@ li.icon-check {
     padding: 0px 10px 10px 10px;
     align-items: center;
   }
+  ._container {
+    padding-top: 50px;
+  }
+
   .page__features {
     margin-top: 60px;
     padding-bottom: 50px;
   }
-}
+  .pricing__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 
+  .pricing__item {
+    height: auto;
+  }
+
+  .pricing__item:not(:first-child) {
+    margin: 15px auto 0;
+  }
+  .item-pricing__image-box {
+    margin: 40px auto 25px;
+  }
+  .item-pricing__card-list {
+    margin: 30px auto 30px;
+  }
+}
 /*--SMALL MOBILE--*/
 
 @media screen and (max-width: 429px) {

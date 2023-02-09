@@ -930,9 +930,12 @@ li.icon-check {
   ._container {
     padding-top: 50px;
   }
-
   .page__features {
+<<<<<<< HEAD
     padding: 10px 0px 10px 0px;
+=======
+    padding: 10px 0px 10px 0px;;
+>>>>>>> 10c691de4b1142a75cd395edf37e4aaacd716a82
     margin: 40px 0px 30px 0px;
   }
   .pricing__body {
@@ -1018,4 +1021,5 @@ li.icon-check {
   .header-block__subtitle-left {
     font-size: 18px;
   }
+  
 }

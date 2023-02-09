@@ -703,6 +703,14 @@ li.icon-check {
   transition: all 0.5s 0s ease;
 }
 
+/*--FOOTER--*/
+.footer {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 180px 0px 100px 0px;
+  margin: -116px 0px 0px 0px;
+}
+
 /*--BURGER--*/
 .close-icon-menu,
 .icon-menu {
@@ -931,11 +939,7 @@ li.icon-check {
     padding-top: 50px;
   }
   .page__features {
-<<<<<<< HEAD
     padding: 10px 0px 10px 0px;
-=======
-    padding: 10px 0px 10px 0px;;
->>>>>>> 10c691de4b1142a75cd395edf37e4aaacd716a82
     margin: 40px 0px 30px 0px;
   }
   .pricing__body {
@@ -1021,5 +1025,4 @@ li.icon-check {
   .header-block__subtitle-left {
     font-size: 18px;
   }
-  
 }

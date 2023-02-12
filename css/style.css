@@ -1215,6 +1215,9 @@ li.icon-check {
   .header-block__button {
     margin-top: 10px;
   }
+  .pricing__item:hover {
+    border-color: #dddddd;
+  }
   .footer__about {
     padding: 0px 10px;
   }

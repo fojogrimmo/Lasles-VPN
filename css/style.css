@@ -934,6 +934,16 @@ li.icon-check {
   .header-block__button {
     margin: 0px 10px 0px 50px;
   }
+  .footer__about {
+    width: 200px;
+    margin: 0px 10px 0px 30px;
+  }
+  .footer__links {
+    margin-left: 70px;
+  }
+  .footer__list {
+    margin-right: 15px;
+  }
 }
 
 @media screen and (max-width: 904px) {
@@ -1003,8 +1013,6 @@ li.icon-check {
     font-size: 35px;
     margin-bottom: 10px;
     text-align: center;
-  }
-  .header-block__subtitle-left {
   }
 }
 /*--MOBILE--*/
@@ -1219,11 +1227,5 @@ li.icon-check {
   }
   .footer__list:last-child {
     margin-right: 0;
-  }
-  .footer__title {
-  }
-  .footer__column {
-  }
-  .footer__link {
   }
 }

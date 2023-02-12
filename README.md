@@ -5,4 +5,4 @@ My first website page (HTML5 + CSS).
 
 # Try it on smartphone:
 
-![image](https://user-images.githubusercontent.com/111078093/216973657-0cdca30e-5ccf-4460-9d31-8cfc422b1bbc.png)
+![image](https://user-images.githubusercontent.com/111078093/218328506-c91aeff9-4b8e-4bbc-9e78-a5cb95a7ae07.png)

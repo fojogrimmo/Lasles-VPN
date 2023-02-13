@@ -1168,6 +1168,7 @@ li.icon-check {
   }
   .footer__media-logos {
     margin: 0 auto;
+    padding: 0px 15px 0px 30px;
     justify-content: center;
   }
   .footer__copyright {
